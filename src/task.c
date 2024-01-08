@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "todo.h"
+#include "../include/todo.h"
 
 Todo *getTask() {
 

@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
-#include "todo.h"
+#include "../include/todo.h"
 
 // Check if a given filename has a ".csv" extension
 int isCSVFile(const char *filename) {
