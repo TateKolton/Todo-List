@@ -27,7 +27,7 @@ Todo *getTask() {
 }
 
 char *getDescription() {
-    char *desc = (char*)malloc(MAX_DESCRIPTION * sizeof(char));
+    char *desc = malloc(MAX_DESCRIPTION);
     char c;
     int i;
 
